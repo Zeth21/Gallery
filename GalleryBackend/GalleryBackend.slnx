@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Gallery.API/Gallery.API.csproj" />
+  <Project Path="Gallery.Entities/Gallery.Entities.csproj" />
+</Solution>
