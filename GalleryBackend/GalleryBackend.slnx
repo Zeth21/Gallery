@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Gallery.API/Gallery.API.csproj" />
+  <Project Path="Gallery.Business/Gallery.Business.csproj" Id="9193a677-9238-4968-97c2-4af3001b2625" />
   <Project Path="Gallery.DataAccess/Gallery.DataAccess.csproj" Id="82736dca-f24d-4d56-9efc-da005825f5b0" />
   <Project Path="Gallery.Entities/Gallery.Entities.csproj" />
 </Solution>
