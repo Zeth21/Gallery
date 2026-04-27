@@ -19,6 +19,8 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.Services.AddAutoMapper(typeof(Gallery.Business.DTOs.MappingProfile));
+
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
